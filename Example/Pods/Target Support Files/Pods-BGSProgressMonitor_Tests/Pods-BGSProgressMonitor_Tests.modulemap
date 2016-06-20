@@ -1,0 +1,6 @@
+framework module Pods_BGSProgressMonitor_Tests {
+  umbrella header "Pods-BGSProgressMonitor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

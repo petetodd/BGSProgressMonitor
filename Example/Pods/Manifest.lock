@@ -1,0 +1,22 @@
+PODS:
+  - BGSProgressMonitor (0.1.0)
+  - Nimble (3.2.0)
+  - Quick (0.9.2)
+
+DEPENDENCIES:
+  - BGSProgressMonitor (from `../`)
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  BGSProgressMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BGSProgressMonitor: 404cc886512f7e7bedb61543a01796b14416791b
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+
+PODFILE CHECKSUM: 0cc30225f9f433fa466aa98a0a7e417b2c302e11
+
+COCOAPODS: 1.0.1

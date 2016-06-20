@@ -1,0 +1,22 @@
+{
+  "name": "BGSProgressMonitor",
+  "version": "0.1.0",
+  "summary": "A short description of BGSProgressMonitor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BGSProgressMonitor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Peter Todd": "peter@petertodd.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BGSProgressMonitor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BGSProgressMonitor/Classes/**/*"
+}

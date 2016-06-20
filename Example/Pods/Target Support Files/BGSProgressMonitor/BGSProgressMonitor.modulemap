@@ -1,0 +1,6 @@
+framework module BGSProgressMonitor {
+  umbrella header "BGSProgressMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}
