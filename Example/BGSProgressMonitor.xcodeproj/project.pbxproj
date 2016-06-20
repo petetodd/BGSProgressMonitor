@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9A52E21C89C6728711B2F6B1 /* Pods_BGSProgressMonitor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BABD0907B89FB2420E77D0 /* Pods_BGSProgressMonitor_Tests.framework */; };
+		D042B0501D18428B0095D480 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042B04F1D18428B0095D480 /* UIApplicationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7A4B2516F434B27CE5381670 /* Pods-BGSProgressMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGSProgressMonitor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGSProgressMonitor_Tests/Pods-BGSProgressMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5C9DD7CB8A8182F0B710C32 /* Pods_BGSProgressMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGSProgressMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D042B04F1D18428B0095D480 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIApplicationExtensions.swift; path = Extensions/UIApplicationExtensions.swift; sourceTree = "<group>"; };
 		D795A88E6C6DAB750F7886CD /* Pods-BGSProgressMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGSProgressMonitor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGSProgressMonitor_Example/Pods-BGSProgressMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DBA00B988336D6604D0B0D15 /* BGSProgressMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BGSProgressMonitor.podspec; path = ../BGSProgressMonitor.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for BGSProgressMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				D042B04E1D18427D0095D480 /* Extensions */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -146,6 +149,14 @@
 				30BABD0907B89FB2420E77D0 /* Pods_BGSProgressMonitor_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D042B04E1D18427D0095D480 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D042B04F1D18428B0095D480 /* UIApplicationExtensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		FC7632BFB9556838988F64E6 /* Pods */ = {
@@ -359,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D042B0501D18428B0095D480 /* UIApplicationExtensions.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -439,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -477,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -490,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BGSProgressMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -503,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BGSProgressMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
